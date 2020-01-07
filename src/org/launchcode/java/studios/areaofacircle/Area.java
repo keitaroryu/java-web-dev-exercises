@@ -7,7 +7,7 @@ public class Area {
         double radius;
         Scanner input = new Scanner(System.in);
 
-        System.out.print("Enter the radius: ");
+        System.out.print("Enter the radius: ");*
         if(!input.hasNextDouble()){
             System.out.print("Invalid entry!");
         }else {
@@ -16,6 +16,7 @@ public class Area {
                 System.out.print("Radius cannot be negative. Enter the radius: ");
                 radius = input.nextDouble();
             }
+            input.close();
             System.out.print("The area of a circle of radius "+ radius +" is: "+Circle.getArea(radius)+".");
         }
     }
