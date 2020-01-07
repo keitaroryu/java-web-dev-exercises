@@ -7,7 +7,7 @@ public class Area {
         double radius;
         Scanner input = new Scanner(System.in);
 
-        System.out.print("Enter the radius: ");*
+        System.out.print("Enter the radius: ");
         if(!input.hasNextDouble()){
             System.out.print("Invalid entry!");
         }else {
