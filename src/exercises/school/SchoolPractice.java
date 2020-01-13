@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class SchoolPractice {
     public static void main(String[] args) {
         Student brian = new Student();
-        brian.setName("Brian");
+        brian.setName("Brian Nguyen");
         brian.setStudentId(1);
         brian.setNumberOfCredits(1);
         brian.setGpa(4.0);
